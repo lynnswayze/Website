@@ -10,13 +10,13 @@
     --system-mono: 'atkinson hyperlegible mono', 'berkeley mono', ui-monospace, menlo, monaco, 'noto mono', 'noto sans mono', 'cascadia code', consolas, 'liberation mono', 'lucida console', monospace;
     --color: black;
     --border-color: indianred;
-    --background: white;
+    --background: linen;
     --accent: whitesmoke;
     --backdrop: rgba(250 240 230 / .25);
     --link: teal;
     --link-focus: teal;
     --link-active: turquoise;
-    --link-visited: black;
+    --link-visited: turquoise;
     --shadow: 2px 2px 1px indianred;
     --shadow-kbd: 2px 2px 1px indianred;
     --border: medium solid var(--border-color);
