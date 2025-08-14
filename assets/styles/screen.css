@@ -13,8 +13,8 @@
     --background: white;
     --accent: whitesmoke;
     --backdrop: rgba(250 240 230 / .25);
-    --link: mediumblue;
-    --link-focus: darkblue;
+    --link: MediumVioletRed;
+    --link-focus: darkpurple;
     --link-active: skyblue;
     --link-visited: black;
     --shadow: 2px 2px 1px indianred;
