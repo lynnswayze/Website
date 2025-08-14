@@ -215,7 +215,6 @@ dialog > aside > h2:nth-child(1) {
 a {
     color: var(--link);
     text-underline-offset: 0rem;
-
 }
 small > a {
     text-underline-offset: 0rem;
@@ -324,23 +323,6 @@ a[href^="http"]:not([href*="lynnswayze.com"]):not(:has(img, svg, picture)):not(.
 .gallery-flex > div > figure > a {
     margin: 0 auto;
 }
-/* for messsages taken from my guestbook at atabook.org */
-.box {
-    background-color: var(--accent);
-    padding: 5px 10px;
-    color: var(--color);
-    margin-bottom: 1rem;
-    border: var(--border-thin);
-}
-.split {
-    display: flex;
-    justify-content: space-between;
-}
-.message p {
-    margin-top: 8px;
-    margin-bottom: 5px;
-}
-/* end guestbook css */
 /*
  *
  * fun with popovers
