@@ -214,10 +214,11 @@ dialog > aside > h2:nth-child(1) {
 /* LINK STYLING */
 a {
     color: var(--link);
-    text-underline-offset: .35rem;
+    text-underline-offset: 0rem;
+
 }
 small > a {
-    text-underline-offset: .3rem;
+    text-underline-offset: 0rem;
 }
 a:active {
     color: var(--link-active);
@@ -225,17 +226,11 @@ a:active {
 a:visited {
     color: var(--link-visited);
 }
-a:focus:not(:has(img, svg, picture)), a:hover:not(:has(img, svg, picture)), a:visited:hover:not(:has(img, svg, picture)) {
-    color: var(--link-focus);
-    outline: thick dashed var(--link-focus);
-    outline-offset: .25rem;
-    text-decoration: none;
-}
-a[href^="http"]:not([href*="starbreaker.org"]):not(:has(img, svg, picture)):not(.webring), .external-link {
+a[href^="http"]:not([href*="lynnswayze.com"]):not(:has(img, svg, picture)):not(.webring), .external-link {
     padding-right: 1.25rem;
 }
 /* LET'S MARK EXTERNAL LINKS TO DISTINGUISH THEM FROM LINKS TO OTHER PAGES. */
-a[href^="http"]:not([href*="starbreaker.org"]):not(:has(img, svg, picture)):not(.webring)::after, .external-link::after {
+a[href^="http"]:not([href*="lynnswayze.com"]):not(:has(img, svg, picture)):not(.webring)::after, .external-link::after {
     position: absolute;
     content: "";
     display: inline-block;
