@@ -17,8 +17,8 @@
     --link-focus: darkblue;
     --link-active: skyblue;
     --link-visited: black;
-    --shadow: 5px 5px 1px indianred;
-    --shadow-kbd: 5px 5px 1px indianred;
+    --shadow: 2px 2px 1px indianred;
+    --shadow-kbd: 2px 2px 1px indianred;
     --border: medium solid var(--border-color);
     --border-thin: thin solid var(--border-color);
     --border-thick: thick solid var(--border-color);
