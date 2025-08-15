@@ -16,7 +16,7 @@
     --link: teal;
     --link-focus: teal;
     --link-active: turquoise;
-    --link-visited: turquoise;
+    --link-visited: indianred;
     --shadow: 2px 2px 1px indianred;
     --shadow-kbd: 2px 2px 1px indianred;
     --border: medium solid var(--border-color);
@@ -214,7 +214,7 @@ dialog > aside > h2:nth-child(1) {
 /* LINK STYLING */
 a {
     color: var(--link);
-    text-underline-offset: 0rem;
+    text-underline-offset: 0.3rem;
 }
 small > a {
     text-underline-offset: 0rem;
