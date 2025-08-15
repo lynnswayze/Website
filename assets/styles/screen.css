@@ -1,13 +1,14 @@
 /*
- * Special thanks to Matthew Graybosch for the original css file, which I expanded upon. 
+ * Special thanks to Matthew Graybosch for the original css file, which I expanded upon. I will eventually 
+ update this with my own sheet. In the meantime, this is what I have. *
 /* ROOT CSS VARIABLES */
 :root {
     color-scheme: light;
     scroll-padding: 1.5rem;
     --font-size: medium;
-    --system-sans-var: 'atkinson hyperlegible', system-ui, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'segoe ui', 'helvetica neue', noto, 'noto sans', roboto, cantarell, ubuntu, helvetica, 'trebuchet ms', verdana, calibri, arial, sans-serif, 'apple color emoji', 'segoe ui emoji', 'segoe ui symbol';
-    --system-serif-var: ui-serif, 'iowan old style', 'apple garamond', baskerville, georgia, 'times new roman', 'droid serif', times, 'source serif pro', serif, 'apple color emoji', 'segoe ui emoji', 'segoe ui symbol';
-    --system-mono-var: 'atkinson hyperlegible mono', 'berkeley mono', ui-monospace, menlo, monaco, 'noto mono', 'noto sans mono', 'cascadia code', consolas, 'liberation mono', 'lucida console', monospace;
+    /* --system-sans-var: montserrat */
+    /* --system-serif-var: old style, georgia, 'times new roman', 'droid serif', times, 'source serif pro',  */
+    /* --system-mono-var: 'atkinson hyperlegible mono', 'berkeley mono', ui-monospace, menlo, monaco, 'noto mono', 'noto sans mono', 'cascadia code', consolas, 'liberation mono', 'lucida console', monospace; */
 	--color: black;
     --border-color: indianred;
     --background: linen;
@@ -42,7 +43,7 @@ html {
     border-top: var(--border-thick);
     line-height: 1.666;
     letter-spacing: normal;
-    font-family: sans-serif;
+    font-family: georgia;
     -webkit-font-smoothing: antialiased;
 }
 /* FURTHER TEXT-RENDERING IMPROVEMENTS */
